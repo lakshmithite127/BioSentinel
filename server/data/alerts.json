@@ -1,0 +1,72 @@
+[
+  {
+    "id": "ALT-1",
+    "patientId": "P-101",
+    "name": "John Pork",
+    "alertType": "Critical",
+    "title": "High BP Spike (180/110)",
+    "description": "Recorded: 180/110 mm/Hg",
+    "device": "PBM365",
+    "status": "Escalated",
+    "time": "11:00 am",
+    "action": "View Order",
+    "severity": "critical",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "ALT-2",
+    "patientId": "P-102",
+    "name": "Jane Doe",
+    "alertType": "Critical",
+    "title": "Low SpO2 detected",
+    "description": "Recorded: 88% SpO2",
+    "device": "PBM102",
+    "status": "Acknowledged",
+    "time": "11:00 am",
+    "action": "Review Order",
+    "severity": "critical",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=120&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "ALT-3",
+    "patientId": "P-103",
+    "name": "Roger Lewis",
+    "alertType": "Warning",
+    "title": "Low SpO2 Drop (88%)",
+    "description": "Recorded: 88% SpO2",
+    "device": "PBM441",
+    "status": "New",
+    "time": "10:45 am",
+    "action": "Acknowledge",
+    "severity": "warning",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "ALT-4",
+    "patientId": "P-106",
+    "name": "David Miller",
+    "alertType": "Critical",
+    "title": "Severe Tachycardia Spike",
+    "description": "Recorded: 132 bpm",
+    "device": "PBM556",
+    "status": "Escalated",
+    "time": "10:30 am",
+    "action": "Adjust Meds",
+    "severity": "critical",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=120&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "ALT-5",
+    "patientId": "P-102",
+    "name": "Jane Doe",
+    "alertType": "Critical",
+    "title": "Hypertensive Crisis (180/110)",
+    "description": "Recorded: 180/110 mm/Hg",
+    "device": "PBM102",
+    "status": "Escalated Alerts",
+    "time": "10:15 am",
+    "action": "Adjust Meds",
+    "severity": "critical",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=120&auto=format&fit=crop&q=80"
+  }
+]

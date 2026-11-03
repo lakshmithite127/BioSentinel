@@ -1,0 +1,453 @@
+[
+  {
+    "id": "P-107",
+    "name": "Robert Downey",
+    "age": 59,
+    "gender": "Male",
+    "condition": "Coronary Artery Disease",
+    "situation": "Stable",
+    "situationDetails": "Newly admitted with initial status: Stable",
+    "riskStatus": "Stable",
+    "riskStatusDetails": "Initial baseline evaluation",
+    "healthStatus": "Stable",
+    "heartRate": 72,
+    "bloodPressure": "120/80",
+    "systolic": 120,
+    "diastolic": 80,
+    "spo2": 98,
+    "device": "PBM879",
+    "latestAlertTimestamp": "Just now",
+    "fullTimestamp": "2026-09-23 18:01:55",
+    "bloodType": "O+",
+    "allergies": "None",
+    "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=120&auto=format&fit=crop&q=80",
+    "medications": [
+      {
+        "id": "m-1790186515230",
+        "name": "Maintenance Hydration IV",
+        "dosage": "50ml/hr",
+        "active": true
+      }
+    ],
+    "organStatus": {
+      "organ": "Cerebral Cortex",
+      "diagnostic": "Cerebral perfusion normal",
+      "state": "Normal"
+    },
+    "vitalsHistory": [
+      {
+        "time": "08:00",
+        "bpm": 68
+      },
+      {
+        "time": "10:00",
+        "bpm": 74
+      },
+      {
+        "time": "12:00",
+        "bpm": 72
+      }
+    ],
+    "organImage": "/brain.png"
+  },
+  {
+    "id": "P-101",
+    "name": "John Pork",
+    "age": 58,
+    "gender": "Male",
+    "condition": "Hypertension",
+    "situation": "Critical",
+    "situationDetails": "High risk of Arrhythmia detected",
+    "riskStatus": "Improving",
+    "riskStatusDetails": "slightly changed compared last",
+    "healthStatus": "Critical",
+    "heartRate": 48,
+    "bloodPressure": "130/85",
+    "systolic": 130,
+    "diastolic": 85,
+    "spo2": 89,
+    "device": "PBM365",
+    "latestAlertTimestamp": "2 mins ago",
+    "fullTimestamp": "2026-01-29 14:35:20",
+    "bloodType": "O+",
+    "allergies": "Penicillin",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&auto=format&fit=crop&q=80",
+    "medications": [
+      {
+        "id": "m1",
+        "name": "Lisinopril 10mg",
+        "dosage": "1 Pill Daily",
+        "active": true
+      },
+      {
+        "id": "m2",
+        "name": "Metoprolol 10mg",
+        "dosage": "1 Pill Daily",
+        "active": true
+      },
+      {
+        "id": "m3",
+        "name": "Amlodipine 20mg",
+        "dosage": "2 Pill Daily",
+        "active": false
+      }
+    ],
+    "organStatus": {
+      "organ": "Pneumonia",
+      "diagnostic": "seems no issue",
+      "state": "Normal"
+    },
+    "vitalsHistory": [
+      {
+        "time": "08:00",
+        "bpm": 68
+      },
+      {
+        "time": "10:00",
+        "bpm": 92
+      },
+      {
+        "time": "12:00",
+        "bpm": 74
+      },
+      {
+        "time": "14:00",
+        "bpm": 80
+      },
+      {
+        "time": "16:00",
+        "bpm": 88
+      },
+      {
+        "time": "18:00",
+        "bpm": 72
+      },
+      {
+        "time": "20:00",
+        "bpm": 95
+      },
+      {
+        "time": "22:00",
+        "bpm": 115
+      },
+      {
+        "time": "00:00",
+        "bpm": 140
+      },
+      {
+        "time": "02:00",
+        "bpm": 156
+      },
+      {
+        "time": "04:00",
+        "bpm": 164
+      }
+    ],
+    "organImage": "/lungs.png"
+  },
+  {
+    "id": "P-102",
+    "name": "Jane Doe",
+    "age": 42,
+    "gender": "Female",
+    "condition": "Severe Arrhythmia & Hypoxemia",
+    "situation": "Critical",
+    "situationDetails": "Severe BP spike and oxygen desaturation",
+    "riskStatus": "At Risk",
+    "riskStatusDetails": "Escalated for immediate cardiologist review",
+    "healthStatus": "Critical",
+    "heartRate": 118,
+    "bloodPressure": "180/110",
+    "systolic": 180,
+    "diastolic": 110,
+    "spo2": 88,
+    "device": "PBM102",
+    "latestAlertTimestamp": "5 mins ago",
+    "fullTimestamp": "2026-01-29 14:32:10",
+    "bloodType": "A+",
+    "allergies": "Sulfa drugs",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=120&auto=format&fit=crop&q=80",
+    "medications": [
+      {
+        "id": "m4",
+        "name": "Furosemide 40mg",
+        "dosage": "1 Pill Daily",
+        "active": true
+      },
+      {
+        "id": "m5",
+        "name": "Carvedilol 25mg",
+        "dosage": "2 Pill Daily",
+        "active": true
+      }
+    ],
+    "organStatus": {
+      "organ": "Myocardium",
+      "diagnostic": "Vascular BP spike 180/110",
+      "state": "Critical"
+    },
+    "vitalsHistory": [
+      {
+        "time": "08:00",
+        "bpm": 85
+      },
+      {
+        "time": "10:00",
+        "bpm": 88
+      },
+      {
+        "time": "12:00",
+        "bpm": 92
+      },
+      {
+        "time": "14:00",
+        "bpm": 105
+      },
+      {
+        "time": "16:00",
+        "bpm": 112
+      },
+      {
+        "time": "18:00",
+        "bpm": 118
+      }
+    ],
+    "organImage": "/heart.png"
+  },
+  {
+    "id": "P-103",
+    "name": "Roger Lewis",
+    "age": 64,
+    "gender": "Male",
+    "condition": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "situation": "Warning",
+    "situationDetails": "Low SpO2 drop detected (88%)",
+    "riskStatus": "Moderate",
+    "riskStatusDetails": "Supplemental O2 therapy initiated",
+    "healthStatus": "At risk",
+    "heartRate": 76,
+    "bloodPressure": "140/90",
+    "systolic": 140,
+    "diastolic": 90,
+    "spo2": 88,
+    "device": "PBM441",
+    "latestAlertTimestamp": "15 mins ago",
+    "fullTimestamp": "2026-01-29 14:20:00",
+    "bloodType": "B-",
+    "allergies": "Aspirin",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&auto=format&fit=crop&q=80",
+    "medications": [
+      {
+        "id": "m6",
+        "name": "Albuterol Inhaler",
+        "dosage": "2 Puffs PRN",
+        "active": true
+      },
+      {
+        "id": "m7",
+        "name": "Tiotropium 18mcg",
+        "dosage": "1 Capsule Daily",
+        "active": true
+      }
+    ],
+    "organStatus": {
+      "organ": "Bronchial Tree",
+      "diagnostic": "Airway obstruction SpO2 88%",
+      "state": "Warning"
+    },
+    "vitalsHistory": [
+      {
+        "time": "08:00",
+        "bpm": 72
+      },
+      {
+        "time": "10:00",
+        "bpm": 74
+      },
+      {
+        "time": "12:00",
+        "bpm": 76
+      },
+      {
+        "time": "14:00",
+        "bpm": 78
+      }
+    ],
+    "organImage": "/lungs.png"
+  },
+  {
+    "id": "P-104",
+    "name": "Sarah Jenkins",
+    "age": 31,
+    "gender": "Female",
+    "condition": "Post-Operative Recovery",
+    "situation": "Stable",
+    "situationDetails": "Vitals within targeted therapeutic margins",
+    "riskStatus": "Stable",
+    "riskStatusDetails": "Scheduled for step-down unit transfer",
+    "healthStatus": "Stable",
+    "heartRate": 72,
+    "bloodPressure": "118/75",
+    "systolic": 118,
+    "diastolic": 75,
+    "spo2": 99,
+    "device": "PBM882",
+    "latestAlertTimestamp": "1 hour ago",
+    "fullTimestamp": "2026-01-29 13:30:00",
+    "bloodType": "O-",
+    "allergies": "None",
+    "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=120&auto=format&fit=crop&q=80",
+    "medications": [
+      {
+        "id": "m8",
+        "name": "Cefazolin 1g",
+        "dosage": "IV Q8H",
+        "active": true
+      },
+      {
+        "id": "m9",
+        "name": "Acetaminophen 500mg",
+        "dosage": "1 Tablet Q6H",
+        "active": true
+      }
+    ],
+    "organStatus": {
+      "organ": "Hepatic Bed",
+      "diagnostic": "Post-Op healing normal",
+      "state": "Normal"
+    },
+    "vitalsHistory": [
+      {
+        "time": "08:00",
+        "bpm": 70
+      },
+      {
+        "time": "10:00",
+        "bpm": 71
+      },
+      {
+        "time": "12:00",
+        "bpm": 72
+      }
+    ],
+    "organImage": "/liver.png"
+  },
+  {
+    "id": "P-105",
+    "name": "Michael Chen",
+    "age": 50,
+    "gender": "Male",
+    "condition": "Type 2 Diabetes Mellitus",
+    "situation": "Stable",
+    "situationDetails": "Glycemic levels stabilized under protocol",
+    "riskStatus": "Stable",
+    "riskStatusDetails": "Continuous glucose monitoring connected",
+    "healthStatus": "Stable",
+    "heartRate": 68,
+    "bloodPressure": "122/80",
+    "systolic": 122,
+    "diastolic": 80,
+    "spo2": 98,
+    "device": "PBM771",
+    "latestAlertTimestamp": "2 hours ago",
+    "fullTimestamp": "2026-01-29 12:30:00",
+    "bloodType": "AB+",
+    "allergies": "Latex",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=120&auto=format&fit=crop&q=80",
+    "medications": [
+      {
+        "id": "m10",
+        "name": "Metformin 850mg",
+        "dosage": "1 Tablet BID",
+        "active": true
+      },
+      {
+        "id": "m11",
+        "name": "Empagliflozin 10mg",
+        "dosage": "1 Tablet Daily",
+        "active": true
+      }
+    ],
+    "organStatus": {
+      "organ": "Renal Nephrons",
+      "diagnostic": "GFR stable & glucose 112 mg/dL",
+      "state": "Normal"
+    },
+    "vitalsHistory": [
+      {
+        "time": "08:00",
+        "bpm": 66
+      },
+      {
+        "time": "10:00",
+        "bpm": 68
+      },
+      {
+        "time": "12:00",
+        "bpm": 69
+      }
+    ],
+    "organImage": "/human-pancreas.png"
+  },
+  {
+    "id": "P-106",
+    "name": "David Miller",
+    "age": 71,
+    "gender": "Male",
+    "condition": "Dilated Cardiomyopathy",
+    "situation": "Critical",
+    "situationDetails": "Severe Tachycardia & Ejection Fraction 30%",
+    "riskStatus": "Critical",
+    "riskStatusDetails": "ICU telemetry bed reserved",
+    "healthStatus": "Critical",
+    "heartRate": 132,
+    "bloodPressure": "170/105",
+    "systolic": 170,
+    "diastolic": 105,
+    "spo2": 90,
+    "device": "PBM556",
+    "latestAlertTimestamp": "3 mins ago",
+    "fullTimestamp": "2026-01-29 14:32:00",
+    "bloodType": "A-",
+    "allergies": "Codeine",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=120&auto=format&fit=crop&q=80",
+    "medications": [
+      {
+        "id": "m12",
+        "name": "Digoxin 0.125mg",
+        "dosage": "1 Tablet Daily",
+        "active": true
+      },
+      {
+        "id": "m13",
+        "name": "Spironolactone 25mg",
+        "dosage": "1 Tablet Daily",
+        "active": true
+      }
+    ],
+    "organStatus": {
+      "organ": "Left Ventricle",
+      "diagnostic": "Ventricle dilatation EF 30%",
+      "state": "Critical"
+    },
+    "vitalsHistory": [
+      {
+        "time": "08:00",
+        "bpm": 105
+      },
+      {
+        "time": "10:00",
+        "bpm": 118
+      },
+      {
+        "time": "12:00",
+        "bpm": 128
+      },
+      {
+        "time": "14:00",
+        "bpm": 132
+      }
+    ],
+    "organImage": "/heart.png"
+  }
+]
